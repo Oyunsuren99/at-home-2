@@ -1,0 +1,39 @@
+.card {
+    max-width: 100%;
+    height: 600px;
+}
+@media only screen and (max-width: 576px)  {
+    .card {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .card {
+        background-color: burlywood;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .card {
+        background-color: aqua;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .card {
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .card {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1401px) {
+    .card {
+        background-color: darksalmon ;
+    }
+}
